@@ -18,7 +18,12 @@ public class Louncher {
 		System.out.println("[Dati riassuntivi]"+ p);
 		p.setNome("Antonio");
 		System.out.println("[Dati riassuntivi]"+ p);
-				
+		Cane c= new Cane("Pastore Maremmano", true);
+		System.out.println("[Dati cane]"+ c);
+		ThreadCaneCompleanno tcc= new ThreadCaneCompleanno(c);
+		ThreadCaneEta tca= new ThreadCaneEta(c);
+		tcc.start();
+		tca.start();
 //>>>>>>> branch 'master' of https://github.com/Camrobot/EsercizioBase.git
 	}
 
