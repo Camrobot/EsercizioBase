@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Tobia
+ *
+ */
+module EsercizioBase {
+}
