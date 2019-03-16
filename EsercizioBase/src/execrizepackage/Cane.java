@@ -38,6 +38,28 @@ public class Cane {
 
 	public Cane() {
 		// TODO Auto-generated constructor stub
+		Razza = "";
+		this.eta = 0;
+		this.sesso = true;
 	}
 
+	public Cane(String razza, boolean sesso) {
+		// TODO Auto-generated constructor stub
+		this.Razza = razza;
+		this.sesso = sesso;
+	}
+
+	
+	@Override
+	public String toString() {
+		return "Cane [Razza=" + Razza + ", eta=" + eta + ", sesso=" + sesso + "]";
+	}
+
+	public synchronized void compleannocane () {
+		this.setEta(getEta()+1);
+	}
+	public synchronized boolean vecchio () {
+		return getEta()==3;
+	}
+	
 }
