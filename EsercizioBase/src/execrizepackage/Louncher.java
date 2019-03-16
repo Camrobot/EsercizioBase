@@ -10,7 +10,9 @@ public class Louncher {
 		// TODO Auto-generated method stub
 
 		Persona p=new Persona();
-		System.out.println("[Dati riassuntivi]"+ p);
+		Cane c= new Cane();
+		System.out.println("[Dati persona]"+ p);
+		System.out.println("[Dati cane]"+ c);
 	}
 
 }
