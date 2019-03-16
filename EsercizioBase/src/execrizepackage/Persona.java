@@ -8,6 +8,11 @@ public class Persona {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Persona(String s) {
+		// TODO Auto-generated constructor stub
+		this.nome=s;
+	}
+
 	@Override
 	public String toString() {
 		return "Persona [nome=" + nome + "]";
