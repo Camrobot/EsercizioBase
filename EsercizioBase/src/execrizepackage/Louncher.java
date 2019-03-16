@@ -19,18 +19,17 @@ public class Louncher {
 		 * System.out.println("[Dati riassuntivi]"+ p); p.setNome("Antonio");
 		 * System.out.println("[Dati riassuntivi]"+ p);
 		 */
-=======
 /*<<<<<<< HEAD
 		Cane c= new Cane();
 		System.out.println("[Dati persona]"+ p);
 		System.out.println("[Dati cane]"+ c);
 =======*/
-/*		System.out.println("[Dati riassuntivi]"+ p);
+		System.out.println("[Dati riassuntivi]"+ p);
 		p.setNome("Antonio");
 		System.out.println("[Dati riassuntivi]"+ p);
 		Cane c= new Cane("Pastore Maremmano", true);
 		System.out.println("[Dati cane]"+ c);
-*/
+
   ThreadCaneCompleanno tcc= new ThreadCaneCompleanno(c);
 		ThreadCaneEta tca= new ThreadCaneEta(c);
 		tcc.start();
