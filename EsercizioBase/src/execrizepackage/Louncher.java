@@ -11,6 +11,9 @@ public class Louncher {
 
 		Persona p=new Persona();
 		System.out.println("[Dati riassuntivi]"+ p);
+		p.setNome("Antonio");
+		System.out.println("[Dati riassuntivi]"+ p);
+				
 	}
 
 }
